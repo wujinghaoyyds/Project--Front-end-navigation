@@ -1,0 +1,12 @@
+$('.addButton')
+.on('click', () => {
+   let url = window.prompt('请输入网址')
+   
+   if(url.indexOf('http') !==0 ){
+        //alert('请输入http开头的的网址')
+        url='https://' + url
+   }
+   console.log(url)
+   const $siteList = $('.siteList')
+   const $
+})

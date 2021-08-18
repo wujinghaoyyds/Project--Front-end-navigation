@@ -1,0 +1,2 @@
+$('.addButton')
+,on('click', (() => console.log(1)))

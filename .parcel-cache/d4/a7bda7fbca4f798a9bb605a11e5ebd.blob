@@ -1,0 +1,51 @@
+const $siteList = $('.siteList')
+const $lastLi = $siteList.find('li.last')
+const x = localStorage.getItem('x')
+const xObject = JSON.parse(x)
+const hashMap = xObject || [
+    {logo: 'a', logoType: 'text', url: 'https://www.acfun.cn'},
+    {logo: './images/bilibili.png', logotype: 'image', url: 'https://www.bilibili.com'}
+]
+
+
+const removeX = (url) => {
+    return url.replace('https://', '')
+        .replace('http://', '')
+        .replace('www.', '')
+}
+const render = () => {
+    $siteList.find('li:not(.last)').remove()
+    hashMap.forEach(node => {
+        let $li = $(`<li>
+    <a class="a" href="${node.url}">
+        <div class="site">
+        <div class="logo">${node.logo[0]}</div>
+            <div class="link">${removeX(node.url)}</div>
+        </div>
+    </a>
+    </li>`).insertBefore($lastLi)
+    })
+    console.log(`--1--`)
+}
+
+render()
+
+$('.addButton').on('click', () => {
+    let url = window.prompt(`请输入正确的网站`)
+    if (url.indexOf('http') !== 0) {
+        url = 'https://www.' + url
+    }
+    console.log(url)
+    hashMap.push({
+        logo: url[0],
+        logoType: 'text',
+        url: url
+    })
+    render()
+})
+
+window.onbeforeunload = () => {
+    const string = JSON.stringify(hashMap)
+    localStorage.setItem('x', string)
+}
+

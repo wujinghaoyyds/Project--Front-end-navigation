@@ -1,0 +1,21 @@
+20
+68D:\Codetest\Project\Front-end navigation\dist\index.6f607441.css.map132737741686591640 0
+46D:\Codetest\Project\Front-end navigation\.idea132737738176325197 1
+52D:\Codetest\Project\Front-end navigation\src\main.js132737722702880472 0
+51D:\Codetest\Project\Front-end navigation\src\images132736865259449347 1
+45D:\Codetest\Project\Front-end navigation\dist132737741686621534 1
+67D:\Codetest\Project\Front-end navigation\dist\index.37e015d6.js.map132737741686601589 0
+44D:\Codetest\Project\Front-end navigation\src132737722702890447 1
+64D:\Codetest\Project\Front-end navigation\src\images\bilibili.png132736862975920359 0
+55D:\Codetest\Project\Front-end navigation\src\index.html132737684915754550 0
+54D:\Codetest\Project\Front-end navigation\src\style.css132737716427638914 0
+67D:\Codetest\Project\Front-end navigation\dist\bilibili.8ef55845.png132737741683220669 0
+63D:\Codetest\Project\Front-end navigation\dist\index.37e015d6.js132737741686531771 0
+64D:\Codetest\Project\Front-end navigation\dist\index.6f607441.css132737741686511837 0
+56D:\Codetest\Project\Front-end navigation\dist\index.html132737741686511837 0
+57D:\Codetest\Project\Front-end navigation\.idea\.gitignore132737389626580755 0
+57D:\Codetest\Project\Front-end navigation\.idea\codeStyles132737587847185109 1
+71D:\Codetest\Project\Front-end navigation\.idea\Front-end navigation.iml132737389555634404 0
+58D:\Codetest\Project\Front-end navigation\.idea\modules.xml132737389556024736 0
+60D:\Codetest\Project\Front-end navigation\.idea\workspace.xml132737738176315229 0
+77D:\Codetest\Project\Front-end navigation\.idea\codeStyles\codeStyleConfig.xml132737587847175163 0

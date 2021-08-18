@@ -1,0 +1,115 @@
+/*css reset*/
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+/* style */
+body {
+  border: 1px solid red;
+  background: rgb(107, 103, 103);
+}
+
+.globalHeader {
+  border: 1px solid red;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.globalHeader > input {
+  width: 100%;
+  margin-right: 10px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.globalHeader > button {
+  white-space: nowrap;
+  padding: 0 28px;
+  border: none;
+  border-radius: 4px;
+  background: #0282b9;
+  color: white;
+  font-size: 16px;
+}
+
+.globalMain {
+  border: 1px solid red;
+}
+.siteList {
+  border: 1px solid red;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.siteList > li {
+  border: 1px solid red;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.siteList > li > .site {
+  border: 1px solid #ddd;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+
+  padding: 20px 0;
+}
+.siteList > li > .site > .logo {
+  border: 1px solid red;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+}
+.siteList > li > .site > .link {
+  border: 1px solid red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.siteList > li > .addButton {
+  border: 1px solid red;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+
+  background: white;
+}
+.siteList > li > .addButton > .iconWrapper {
+  border: 1px solid red;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.siteList > li > .addButton > .text {
+  font-size: 14px;
+  margin-top: 4px;
+}
+.siteList > li > .addButton > .iconWrapper > .icon {
+  border: 1px solid red;
+  width: 64px;
+  height: 64px;
+}

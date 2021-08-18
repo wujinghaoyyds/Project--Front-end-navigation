@@ -1,0 +1,9 @@
+$('.addButton')
+.on('click', () => {
+   const url = window.prompt('请输入网址')
+   console.log(url)
+   if(url.indexOf('http') !==0 ){
+alert('请输入http开头的的网址')
+url='http://' + url
+   }
+})

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>吴京豪的前端导航</title>
+    <link rel="stylesheet" href="5825085afe161482f4540426b0250d06">
+    <style data-parcel-key="2b6526fb42f9d0134b5d324086fee47b">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="globalHeader">
+        <form class="searchForm" method="get" action="https://www.baidu.com/s">
+            <!-- target="_blank" -->
+            <input name="wd" type="text">
+            <button type="submit">搜索</button>
+        </form>
+
+    </header>
+
+    <main class="globalMain">
+        <ul class="siteList">
+            <li>
+                <a href="2b16e5b3aeedc7fe8ab88de845ed39b9">
+                    <div class="site">
+                        <div class="logo">A</div>
+                        <div class="link">acfun</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="db8f67e579b1d6239e48e01496bb2d29">
+                    <div class="site">
+                        <div class="logo">
+                            <img src="0a0d3ac6d0b27b66d9de84c41fadcf82" alt="">
+                        </div>
+                        <div class="link">bilibili</div>
+                    </div>
+                </a>
+            </li>
+            <li class="last">
+                <div class="addButton">
+                    <div class="iconWrapper">
+                        <svg class="icon">
+                            <use xlink:href="#icon-add"></use>
+                        </svg>
+                    </div>
+                    <div class="text">新增网站</div>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <script src="78bd8d93ea07a6f54fd520d689c24cea"></script>
+    <script src="278700badb54fb306cb49a95f21c3ff5"></script>
+    <script src="609ad5501232ad47c79e40eac7ed5217"></script>
+</body>
+
+</html>
