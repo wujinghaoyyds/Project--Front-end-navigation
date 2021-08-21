@@ -1,0 +1,164 @@
+* {box-sizing: border-box;
+}
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+/* style */
+body {
+    width:100%;
+    background: #d0b37e;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.globalHeader {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.webIcon {
+    border: 1px solid red;
+    width: 100%;
+    height: 50px;
+}
+.engineBar {
+    border: 1px solid red;
+    width: 100%;
+    height: 30px;
+}
+.searchForm {
+    border: 2px solid #00B4CC;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 25px;
+    padding: 5px 10px 5px 15px;
+    background: #ffffff;
+}
+.searchForm .searchInput {
+    width: 100%;
+    height: 36px;
+    font-size: 20px;
+    border-style: none;
+    outline: none;
+    background: #ffffff;
+}
+.searchForm .searchButton {
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 36px;
+    background: #ffffff;
+    text-align: center;
+    border-style: none;
+    outline: none;
+}
+
+.globalMain {
+    /*max-width: 900px;*/
+
+    background: #a88787;
+    width: 100%;
+}
+.siteList {
+    margin: 50px auto 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    height: 400px;
+    justify-content: center;
+    align-content:flex-start;
+    /*其他布局其他布局试一试*/
+    background: #7173a7;
+
+}
+.siteList .liWrapper{
+    width:33%;
+    height:0;
+    padding-bottom: 33%;
+    background: #979534;
+}
+
+.siteList.liWrapper .aWrapper .site {
+    width: 80% ;
+    height:0;
+    padding-bottom: 80%;
+    display: flex;
+    border:5px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    cursor: pointer;
+}
+.siteList .site .logo {
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    /*text-transform: uppercase;*/
+}
+.siteList .site .link {
+    border: 1px solid red;
+}
+/*.siteList .site .close{*/
+/*    position: absolute;*/
+/*    right:10px;*/
+/*    top:10px;*/
+/*    display: none;*/
+/*    cursor: default;*/
+/*}*/
+/*.siteList>li>.site:hover >.close{*/
+/*    display: block;*/
+/*}*/
+/*.siteList > li > .addButton {*/
+/*    border: 1px solid red;*/
+/*    width: 160px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-direction: column;*/
+/*    padding: 20px 0;*/
+/*    border-radius: 10px;*/
+/*    background: white;*/
+/*}*/
+/*.siteList > li > .addButton > .iconWrapper {*/
+/*    border: 1px solid red;*/
+/*    width: 64px;*/
+/*    height: 64px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+/*.siteList > li > .addButton > .text {*/
+/*    font-size: 14px;*/
+/*    margin-top: 4px;*/
+/*}*/
+/*.siteList > li > .addButton > .iconWrapper > .icon {*/
+/*    border: 1px solid red;*/
+/*    width: 64px;*/
+/*    height: 64px;*/
+/*}*/
