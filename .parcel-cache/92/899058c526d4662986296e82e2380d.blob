@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <title>吴京豪的前端导航</title>
+  <link rel="stylesheet" href="/index.HASH_REF_f0918a547ace1733ebc251b0de60a1d7.css">
+  <style>.icon {
+          width: 1em; height: 1em;
+          vertical-align: -0.15em;
+          fill: currentColor;
+          overflow: hidden;
+      }
+</style>
+</head>
+
+<body>
+<header class="globalHeader">
+  <div class="webTop">
+    <div class="webContents">
+      <svg class="icon1">
+        <use xlink:href="#icon-contents">
+        </use>
+      </svg>
+    </div>
+    <div class="webIcon">
+      前端导航
+    </div>
+    <div class="webFeedback">
+      <svg class="icon1">
+        <use xlink:href="#icon-feedback">
+        </use>
+      </svg>
+    </div>
+  </div>
+  <div class="webTheme">
+    <button class="eyeProtection">
+      <svg class="icon2">
+        <use xlink:href="#icon-eye">
+        </use>
+      </svg>
+    </button>
+    <button class="nightMode">
+      <svg class="icon2">
+        <use xlink:href="#icon-night">
+        </use>
+      </svg>
+    </button>
+    <button class="customTheme">
+      <svg class="icon2">
+        <use xlink:href="#icon-theme">
+        </use>
+      </svg>
+    </button>
+  </div>
+  <div class="searchEngine">
+    <div class="searchPortal1">Google</div>
+    <div class="searchPortal2">百度</div>
+    <div class="searchPortal3">Bing</div>
+  </div>
+  <form class="searchForm" method="get" action="https://www.baidu.com/s" target="_blank">
+    <label>
+      <input class="searchInput" name="wd" type="text" placeholder="请输入网址">
+    </label>
+    <button class="clear" type="button">
+      <svg class="icon">
+      <use xlink:href="#icon-close">
+      </use>
+    </svg></button>
+    <button class="searchButton" type="submit">
+      <div class="iconWrapper">
+        <svg class="icon">
+          <use xlink:href="#icon-search">
+          </use>
+        </svg>
+      </div>
+    </button>
+  </form>
+</header>
+<main class="globalMain">
+  <ul class="siteList">
+    <li>
+      <a href="网站链接">
+        <div class="site">
+          <div class="logo">网站logo</div>
+          <div class="link">命名</div>
+        </div>
+      </a>
+    </li>
+    <li class="last">
+      <div class="addButton">
+        <div class="iconWrapper">
+          <svg class="icon">
+            <use xlink:href="#icon-add"></use>
+          </svg>
+        </div>
+        <div class="text">添加快捷方式</div>
+      </div>
+    </li>
+  </ul>
+</main>
+<footer class="globalFooter">
+  <div>
+    这是一个footer（暂代）
+  </div>
+</footer>
+<script src="//at.alicdn.com/t/font_2751652_6kip19lmfcj.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="/index.HASH_REF_e9312995559a911a6f9b63a6bd78eeec.js"></script>
+</body>
+
+</html>

@@ -8,6 +8,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/jquery" level="application" />
     <orderEntry type="library" name="font_2751652_1r60nd20xjt" level="application" />
+    <orderEntry type="library" name="@types/css" level="application" />
   </component>
 </module>
