@@ -37,6 +37,7 @@ img {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        background: #ffffff;
     }
     .webTop .webContents {
         border-style: none;
@@ -394,5 +395,3 @@ img {
 
 
 
-
-/*# sourceMappingURL=index.de60a1d7.css.map */
