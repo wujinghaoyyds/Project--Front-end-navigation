@@ -20,7 +20,7 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
-@media (max-width:450px) {
+@media (max-width:500px) {
     body {
         display: flex;
         flex-direction: column;
@@ -39,14 +39,7 @@ img {
         align-items: center;
         background: #ffffff;
     }
-    .webTop .webContents {
-        border-style: none;
-        height: 10vw;
-        width: 10vw;
-        margin: 1vw;
-        cursor: pointer;
-    }
-    .webTop .webFeedback {
+    .webTop .icon1 {
         border-style: none;
         height: 10vw;
         width: 10vw;
@@ -208,7 +201,7 @@ img {
     }
 }
 
-@media (min-width: 450px) {
+@media (min-width: 500px) {
     body {
         display: flex;
         flex-direction: column;
@@ -396,4 +389,4 @@ img {
 
 
 
-/*# sourceMappingURL=index.de60a1d7.css.map */
+/*# sourceMappingURL=index.HASH_REF_f0918a547ace1733ebc251b0de60a1d7.css.map */

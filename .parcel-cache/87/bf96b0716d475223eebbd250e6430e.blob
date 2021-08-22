@@ -5,14 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
   <title>吴京豪的前端导航</title>
-  <link rel="stylesheet" href="index.d846c209.css">
-  <style>.icon {
+  <link rel="stylesheet" href="5825085afe161482f4540426b0250d06">
+  <style data-parcel-key="2b6526fb42f9d0134b5d324086fee47b">
+      .icon {
           width: 1em; height: 1em;
           vertical-align: -0.15em;
           fill: currentColor;
           overflow: hidden;
       }
-</style>
+  </style>
 </head>
 
 <body>
@@ -28,7 +29,7 @@
       前端导航
     </div>
     <div>
-      <a href="mailto:wujinghaowork@foxmail.com">
+      <a href="fb7af31c44ae24c0285fa10523d554c0">
       <svg class="webFeedback">
         <use xlink:href="#icon-feedback">
         </use>
@@ -107,9 +108,9 @@
 <!--    这是一个footer（暂代）-->
 <!--  </div>-->
 <!--</footer>-->
-<script src="//at.alicdn.com/t/font_2751652_ymjakm0plo.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="index.98810964.js"></script>
+<script src="425ceaa9830027c68aaa8dbb9f079688"></script>
+<script src="278700badb54fb306cb49a95f21c3ff5"></script>
+<script src="609ad5501232ad47c79e40eac7ed5217"></script>
 </body>
 
 </html>

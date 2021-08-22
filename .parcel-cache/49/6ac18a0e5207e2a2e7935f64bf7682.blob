@@ -39,14 +39,7 @@ img {
         align-items: center;
         background: #ffffff;
     }
-    .webTop .webContents {
-        border-style: none;
-        height: 10vw;
-        width: 10vw;
-        margin: 1vw;
-        cursor: pointer;
-    }
-    .webTop .webFeedback {
+    .webTop .icon1 {
         border-style: none;
         height: 10vw;
         width: 10vw;
@@ -395,5 +388,3 @@ img {
 
 
 
-
-/*# sourceMappingURL=index.de60a1d7.css.map */
